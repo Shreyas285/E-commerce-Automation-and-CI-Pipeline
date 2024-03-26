@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-26T05:29:50 IST" name="Suite" finished-at="2024-03-26T05:30:06 IST" duration-ms="16030">
+    <groups>
+      <group name="purchase">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:EcomAutomation.SeleniumFD.Tests.SubmitOrderTest@70eecdc2]" name="SubmitOrder" class="EcomAutomation.SeleniumFD.Tests.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-03-26T05:29:50 IST" name="Error Validation Test" finished-at="2024-03-26T05:29:56 IST" duration-ms="6103">
+      <class name="EcomAutomation.SeleniumFD.Tests.ErrorValidation">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:EcomAutomation.SeleniumFD.Tests.ErrorValidation@3f2049b6]" started-at="2024-03-26T05:29:50 IST" name="lauchApplication" finished-at="2024-03-26T05:29:54 IST" duration-ms="4742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:EcomAutomation.SeleniumFD.Tests.ErrorValidation@3f2049b6]" started-at="2024-03-26T05:29:54 IST" name="loginErrorValidation" finished-at="2024-03-26T05:29:55 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:EcomAutomation.SeleniumFD.Tests.ErrorValidation@3f2049b6]" started-at="2024-03-26T05:29:55 IST" name="closeTheBrowser" finished-at="2024-03-26T05:29:56 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- EcomAutomation.SeleniumFD.Tests.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-03-26T05:29:50 IST" name="SubmitOrder Test" finished-at="2024-03-26T05:30:06 IST" duration-ms="16028">
+      <class name="EcomAutomation.SeleniumFD.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:EcomAutomation.SeleniumFD.Tests.SubmitOrderTest@70eecdc2]" started-at="2024-03-26T05:29:50 IST" name="lauchApplication" finished-at="2024-03-26T05:29:55 IST" duration-ms="4869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:EcomAutomation.SeleniumFD.Tests.SubmitOrderTest@70eecdc2]" started-at="2024-03-26T05:29:55 IST" name="SubmitOrder" data-provider="getHashData" finished-at="2024-03-26T05:29:59 IST" duration-ms="3917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Demo123!, email=demoshreyas39@mail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:EcomAutomation.SeleniumFD.Tests.SubmitOrderTest@70eecdc2]" started-at="2024-03-26T05:29:59 IST" name="closeTheBrowser" finished-at="2024-03-26T05:29:59 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:EcomAutomation.SeleniumFD.Tests.SubmitOrderTest@70eecdc2]" started-at="2024-03-26T05:29:59 IST" name="lauchApplication" finished-at="2024-03-26T05:30:01 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:EcomAutomation.SeleniumFD.Tests.SubmitOrderTest@70eecdc2]" started-at="2024-03-26T05:30:01 IST" name="SubmitOrder" data-provider="getHashData" finished-at="2024-03-26T05:30:06 IST" duration-ms="4624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Demo1234!, email=demoshreyas69@mail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:EcomAutomation.SeleniumFD.Tests.SubmitOrderTest@70eecdc2]" started-at="2024-03-26T05:30:06 IST" name="closeTheBrowser" finished-at="2024-03-26T05:30:06 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- EcomAutomation.SeleniumFD.Tests.SubmitOrderTest -->
+    </test> <!-- SubmitOrder Test -->
+  </suite> <!-- Suite -->
+</testng-results>
