@@ -1,4 +1,4 @@
-E-commerce Automation & CI Pipeline
+E-commerce Automation & CI/CD Pipeline
 
 Developed and maintained an automated regression testing framework for the E-commerce application, integrating continuous integration (CI) and version control practices.
 
